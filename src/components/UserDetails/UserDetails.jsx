@@ -1,0 +1,44 @@
+import { useNavigate } from "react-router-dom";
+import { useTransactions } from "../../../Context/TransactionContext";
+import styles from "./UserDetails.module.css";
+function UserDetails() {
+  const { authenticatedUser, logout } = useTransactions();
+  const navigate = useNavigate();
+
+  function handleLogout() {
+    logout();
+    navigate("/login", { replace: true });
+  }
+
+  return (
+    <div className={styles.user}>
+      <img src={authenticatedUser.avatar} alt={authenticatedUser.owner} />
+      <span>Welcome, {authenticatedUser?.owner?.split(" ")[0]}</span>
+      <button onClick={handleLogout}>Logout</button>
+    </div>
+  );
+}
+
+export default UserDetails;
+
+// import { useNavigate } from "react-router-dom";
+// import { useAuth } from "../../Context/FakeAuthContext";
+// import styles from "./User.module.css";
+
+// function User() {
+//   const { user, logout } = useAuth();
+//   const navigate = useNavigate();
+
+//   function handleClick() {
+//     logout();
+//     navigate("/");
+//   }
+
+//   return (
+//     <div className={styles.user}>
+//       <img src={user.avatar} alt={user.name} />
+//       <span>Welcome, {user.name}</span>
+//       <button onClick={handleClick}>Logout</button>
+//     </div>
+//   );
+// }
