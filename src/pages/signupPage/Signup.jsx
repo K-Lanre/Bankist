@@ -3,7 +3,7 @@ import styles from "./signup.module.css";
 import { useTransactions } from "../../../Context/TransactionContext";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import Nav from "../../components/navCompo/Nav";
+import Nav from "../../components/nav-compo/Nav";
 import Footer from "../../components/footerCompo/Footer";
 import ButtonCompo from "../../components/ButtonCompo/ButtonCompo";
 function Signup() {

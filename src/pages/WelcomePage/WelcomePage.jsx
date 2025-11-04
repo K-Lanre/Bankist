@@ -1,4 +1,4 @@
-import Nav from "../../components/navCompo/Nav";
+import Nav from "../../components/nav-compo/Nav";
 import HomePage from "../../components/welcomeComponent/HomePage";
 import Features from "../../components/featuresCompo/Features";
 import Footer from "../../components/footerCompo/Footer";

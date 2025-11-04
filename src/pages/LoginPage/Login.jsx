@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import styles from "./Login.module.css";
 
-import Nav from "../../components/navCompo/Nav";
+import Nav from "../../components/nav-compo/Nav";
 import Footer from "../../components/footerCompo/Footer";
 
 import { useTransactions } from "../../../Context/TransactionContext";
