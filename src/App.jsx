@@ -11,7 +11,7 @@ import "./index.css";
 import { AnimatePresence } from "framer-motion";
 import { ToastContainer } from "react-toastify";
 import ProtectedRoute from "./pages/ProtectedRoute";
-import Signup from "./pages/SignupPage/signup";
+import Signup from "./pages/signupPage/Signup";
 // import WelcomePage from "./pages/WelcomePage/WelcomePage";
 console.log(accounts);
 
