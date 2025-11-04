@@ -9,7 +9,7 @@ import CloseAccount from "../../components/TransactionCompo/Operations/CloseAcco
 import Transfer from "../../components/TransactionCompo/Operations/Transfer";
 import Timer from "../../components/TransactionCompo/Timer/Timer";
 import Nav from "../../components/nav-compo/Nav";
-import Footer from "../../components/footerCompo/Footer";
+import Footer from "../../components/footer-compo/Footer";
 import UserDetails from "../../components/UserDetails/UserDetails";
 // import TransactionNav from "../../components/TransactionCompo/TransactionNav/TransactionNav";
 

@@ -1,5 +1,5 @@
 import styles from "./HomePage.module.css";
-import Button from "../ButtonCompo/ButtonCompo";
+import Button from "../button-compo/ButtonCompo";
 function HomePage() {
   return (
     <header className={styles.header}>

@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 import styles from "./Login.module.css";
 
 import Nav from "../../components/nav-compo/Nav";
-import Footer from "../../components/footerCompo/Footer";
+import Footer from "../../components/footer-compo/Footer";
 
 import { useTransactions } from "../../../Context/TransactionContext";
 import { useNavigate } from "react-router-dom";
-import ButtonCompo from "../../components/ButtonCompo/ButtonCompo";
+import ButtonCompo from "../../components/button-compo/ButtonCompo";
 import { toast } from "react-toastify";
 function Login() {
   const [userName, setUserName] = useState("");

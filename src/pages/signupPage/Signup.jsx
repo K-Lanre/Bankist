@@ -4,8 +4,8 @@ import { useTransactions } from "../../../Context/TransactionContext";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import Nav from "../../components/nav-compo/Nav";
-import Footer from "../../components/footerCompo/Footer";
-import ButtonCompo from "../../components/ButtonCompo/ButtonCompo";
+import Footer from "../../components/footer-compo/Footer";
+import ButtonCompo from "../../components/button-compo/ButtonCompo";
 function Signup() {
   const [fullName, setFullName] = useState("");
   const [pin, setPin] = useState("");

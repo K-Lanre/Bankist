@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "./logo";
+import Logo from "./Logo";
 import styles from "./Nav.module.css";
 import { useTransactions } from "../../../Context/TransactionContext";
 function Nav() {
